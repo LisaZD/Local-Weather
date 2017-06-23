@@ -1,0 +1,54 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #3e3e3b;
+}
+
+#content, footer {
+  text-align: center;
+  margin: 50px auto;
+  width: 50%;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.change {
+  color: #4cb5f5;
+  background: #fff;
+  border: none;
+}
+
+#icon {
+  width: 25%;
+  max-width: 100px;
+  display: block;
+  margin: 30px auto;
+}
+
+a, a:hover, a:active, a:visited, a:link {
+  text-decoration: none;
+  color: #3e3e3b;
+}
+
+footer {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+}
+
+/* To toggle F and C */
+#Fah {
+  display: none;
+}
+
+#tempC {
+  display: none;
+}
